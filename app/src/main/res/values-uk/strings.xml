@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Гра з Логотипом</string>
+    <string name="dogru_yanlis">Справжнє хибне</string>
+    <string name="zamana_oyunu">Гра на час</string>
+    <string name="alti">Шiсть</string>
+    <string name="puan_yazi">Гол: </string>
+    <string name="kaybettin">You Lose</string>
+    <string name="sonuc">Результат: </string>
+    <string name="en_iyi">Кращий: </string>
+    <string name="yazilim_sorusu">Вiкторина</string>
+    <string name="coklu_secme_1">Питання з кiлькома варiантами 1</string>
+    <string name="coklu_secme_2">Питання з кiлькома варiантами 2</string>
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

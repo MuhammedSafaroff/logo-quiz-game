@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">标志游戏</string>
+    <string name="dogru_yanlis">真假</string>
+    <string name="zamana_oyunu">时间游戏</string>
+    <string name="alti">六</string>
+    <string name="puan_yazi">得分了: </string>
+    <string name="kaybettin">你输了</string>
+    <string name="sonuc">结果: </string>
+    <string name="en_iyi">最好: </string>
+    <string name="yazilim_sorusu">测验</string>
+    <string name="coklu_secme_1">多项选择 1</string>
+    <string name="coklu_secme_2">多项选择 2</string>
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

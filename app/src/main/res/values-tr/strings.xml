@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logo Oyunu</string>
+    <string name="dogru_yanlis">Doğru Yanlış</string>
+    <string name="zamana_oyunu">Zaman Oyunu</string>
+    <string name="alti">Altı</string>
+    <string name="puan_yazi">Puan: </string>
+    <string name="kaybettin">KAYBETTİN</string>
+    <string name="sonuc">Sonuç: </string>
+    <string name="en_iyi">En İyi: </string>
+    <string name="yazilim_sorusu">Yazılım Sorusu</string>
+    <string name="coklu_secme_1">Çoktan Seçmeli 1</string>
+    <string name="coklu_secme_2">Çoktan Seçmeli 2</string>
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

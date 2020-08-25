@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logo Spel</string>
+    <string name="dogru_yanlis">Waar Onwaar</string>
+    <string name="zamana_oyunu">Tijd Spel</string>
+    <string name="alti">Zes</string>
+    <string name="puan_yazi">Score: </string>
+    <string name="kaybettin">Jij Verliest</string>
+    <string name="sonuc">Uw resultat: </string>
+    <string name="en_iyi">Record: </string>
+    <string name="yazilim_sorusu">Quiz</string>
+    <string name="coklu_secme_1">Meerkeuzevragen 1</string>
+    <string name="coklu_secme_2">Meerkeuzevragen 2</string>
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

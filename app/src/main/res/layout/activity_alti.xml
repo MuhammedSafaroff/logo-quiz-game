@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AltiActivity"
+    android:background="@drawable/bg9"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/oyunAltipuan"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:text="Puntuación:100"
+            android:gravity="center"
+            android:background="@drawable/bg4"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/agbg1"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/oyunAltican1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/oyunAltican2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/oyunAltican3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+
+    <LinearLayout
+        android:id="@+id/oyunAltilinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--        1ci setr-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <!--            1 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn1li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn1image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/audi"/>
+            </LinearLayout>
+
+            <!--            2 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn2li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true"
+                >
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn2image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/apple"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--        2ci setr-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <!--            1 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn3li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn3image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+            <!--            2 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn4li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn4image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <!--        3ci setr-->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_weight="1">
+            <!--            1 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn5li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn5image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    />
+            </LinearLayout>
+
+            <!--            2 ci btn-->
+
+            <LinearLayout
+                android:id="@+id/oyunAltibtn6li"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:background="@drawable/agbutton2"
+                android:layout_margin="3dp"
+                android:clickable="true">
+
+                <ImageView
+                    android:id="@+id/oyunAltibtn6image"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/google"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/oyunAltiisim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Azerbaycan"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        android:shadowRadius="3"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="#222"
+        android:layout_weight="3"/>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/banner_reklam1">
+    </com.google.android.gms.ads.AdView>
+
+
+
+
+
+</LinearLayout>
+    

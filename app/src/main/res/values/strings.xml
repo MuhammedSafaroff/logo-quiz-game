@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Logo Game</string>
+    <string name="dogru_yanlis">True False</string>
+    <string name="zamana_oyunu">Time Game</string>
+    <string name="alti">Six</string>
+    <string name="puan_yazi">Score: </string>
+    <string name="kaybettin">You Lose</string>
+    <string name="sonuc">Result: </string>
+    <string name="en_iyi">Best: </string>
+    <string name="yazilim_sorusu">Quiz</string>
+    <string name="coklu_secme_1">Multiple Choice 1</string>
+    <string name="coklu_secme_2">Multiple Choice 2</string>
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+
+
+
+</resources>

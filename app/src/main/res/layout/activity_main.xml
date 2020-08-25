@@ -1,0 +1,395 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg11"
+    android:paddingBottom="60dp"
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/bgheader">
+
+
+        <ImageView
+            android:layout_toLeftOf="@+id/girisbasliq"
+            android:layout_toStartOf="@+id/girisbasliq"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+            android:layout_toRightOf="@+id/girisbasliq"
+            android:layout_toEndOf="@+id/girisbasliq"
+            android:layout_width="34dp"
+            android:layout_height="34dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"/>
+
+        <TextView
+            android:id="@+id/girisbasliq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:gravity="center"
+            android:textStyle="bold|italic"
+            android:textSize="40sp"
+            android:textColor="#fff"
+            android:shadowColor="#000"
+            android:shadowDx="4"
+            android:shadowDy="4"
+            android:shadowRadius="4"
+            android:layout_centerInParent="true"
+            android:padding="6dp"
+
+            />
+
+
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/YazilimSorusubtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/YazilimSorusubasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yazilim_sorusu"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+
+            
+
+            <ImageView
+                android:id="@+id/YazilimSorusuulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:id="@+id/YazilimSorusuEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="100"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:padding="8dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/birSekil4Adbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/birSekil4Adbasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coklu_secme_1"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+
+            
+            <ImageView
+                android:id="@+id/birSekil4Adulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:id="@+id/birSekil4AdEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="center"
+                android:padding="8dp"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/birAd4Sekilbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/birAd4Sekilbasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coklu_secme_2"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+            
+            <ImageView
+                android:id="@+id/birAd4Sekilulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:id="@+id/birAd4SekilEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="center"
+                android:padding="8dp"
+                />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/DogruYanlisbtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/DogruYanlisbasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/dogru_yanlis"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+            
+            <ImageView
+                android:id="@+id/DogruYanlisulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+            <TextView
+                android:id="@+id/DogruYanlisEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="center"
+                android:padding="8dp"
+                />
+
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1.1"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp">
+
+        <RelativeLayout
+            android:id="@+id/ZamanOyunubtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/ZamanOyunubasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/zamana_oyunu"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+
+            
+            <ImageView
+                android:id="@+id/ZamanOyunuulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+            <TextView
+                android:id="@+id/ZamanOyunuEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+
+                android:gravity="center"
+                android:padding="8dp"
+                />
+            
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/Altibtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/girisbutton"
+            android:layout_margin="6dp">
+            <TextView
+                android:id="@+id/Altibasliq"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/alti"
+                android:textColor="#000"
+                android:textSize="17sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:padding="3dp"/>
+            
+            <ImageView
+                android:id="@+id/Altiulduz"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:src="@drawable/ic_stars_black_24dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                />
+
+            <TextView
+                android:id="@+id/AltiEniyi"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:text="0"
+                android:textColor="#ffffff"
+                android:textSize="14sp"
+                android:textStyle="bold|italic"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:gravity="center"
+                android:padding="8dp"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>

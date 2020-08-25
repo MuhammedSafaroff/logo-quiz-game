@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ロゴゲーム</string>
+    <string name="dogru_yanlis">真/偽</string>
+    <string name="zamana_oyunu">タイムゲーム</string>
+    <string name="alti">六</string>
+    <string name="puan_yazi">スコア: </string>
+    <string name="kaybettin">あなたは失う</string>
+    <string name="sonuc">結果: </string>
+    <string name="en_iyi">ベスト: </string>
+    <string name="yazilim_sorusu">クイズ</string>
+    <string name="coklu_secme_1">複数の選択肢 1</string>
+    <string name="coklu_secme_2">複数の選択肢 2</string>
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

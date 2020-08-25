@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Логотип Игры</string>
+    <string name="dogru_yanlis">Правда Ложь</string>
+    <string name="zamana_oyunu">Игра На Время</string>
+    <string name="alti">Шесть</string>
+    <string name="puan_yazi">Гол: </string>
+    <string name="kaybettin">Ты Проиграл</string>
+    <string name="sonuc">Ваш Результат: </string>
+    <string name="en_iyi">Рекорд: </string>
+    <string name="yazilim_sorusu">Тест</string>
+    <string name="coklu_secme_1">С Вариантами Ответа 1</string>
+    <string name="coklu_secme_2">С Вариантами Ответа 2</string>
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+
+</resources>

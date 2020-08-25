@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Παιχνίδι λογότυπου</string>
+    <string name="dogru_yanlis">Σωστό Λάθος</string>
+    <string name="zamana_oyunu">Παιχνίδι χρόνου</string>
+    <string name="alti">Έξι</string>
+    <string name="puan_yazi">Σκορ: </string>
+    <string name="kaybettin">Εσύ χάνεις</string>
+    <string name="sonuc">Αποτέλεσμα: </string>
+    <string name="en_iyi">Καλύτερος: </string>
+    <string name="yazilim_sorusu">Κουίζ</string>
+    <string name="coklu_secme_1">Πολλαπλή επιλογή 1</string>
+    <string name="coklu_secme_2">Πολλαπλή επιλογή 2</string>
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

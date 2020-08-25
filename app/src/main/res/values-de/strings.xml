@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Logo Spiel</string>
+    <string name="dogru_yanlis">Wahr Falsch</string>
+    <string name="zamana_oyunu">Zeit-Spiel</string>
+    <string name="alti">Sechs</string>
+    <string name="puan_yazi">Ergebnis: </string>
+    <string name="kaybettin">Du Verlierst</string>
+    <string name="sonuc">Ihr Ergebnis: </string>
+    <string name="en_iyi">Rekord: </string>
+    <string name="yazilim_sorusu">Quiz</string>
+    <string name="coklu_secme_1">Einfachauswahl 1</string>
+    <string name="coklu_secme_2">Einfachauswahl 2</string>
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

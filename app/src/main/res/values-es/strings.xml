@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Juego De Logo</string>
+    <string name="dogru_yanlis">Verdadera Falsa</string>
+    <string name="zamana_oyunu">Juego de tiempo</string>
+    <string name="alti">Seis</string>
+    <string name="puan_yazi">Puntuación: </string>
+    <string name="kaybettin">Tú Pierdes</string>
+    <string name="sonuc">Resultado: </string>
+    <string name="en_iyi">Récord: </string>
+    <string name="yazilim_sorusu">Prueba</string>
+    <string name="coklu_secme_1">Opción Múltiple 1</string>
+    <string name="coklu_secme_2">Opción Múltiple 2</string>
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

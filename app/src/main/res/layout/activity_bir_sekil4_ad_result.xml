@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirSekil4AdResultActivity"
+    android:orientation="vertical"
+    android:background="@drawable/bg6">
+
+    <ImageView
+        android:id="@+id/imageoyun1S4A"
+        android:layout_alignParentTop="true"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/ic_sentiment_dissatisfied_black_24dp"
+        android:layout_marginTop="10dp"/>
+    <TextView
+        android:id="@+id/kaybettinoyun1S4A"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kaybettin"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#fff"
+        android:shadowColor="#222"
+        android:shadowDx="3"
+        android:shadowDy="3"
+        android:shadowRadius="2"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/imageoyun1S4A"
+        />
+    <TextView
+        android:id="@+id/oyun1S4AResultsonuc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sonuc"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#fff"
+        android:shadowColor="#222"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/kaybettinoyun1S4A"
+        />
+
+    <TextView
+        android:id="@+id/oyun1S4AResulteniyi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/en_iyi"
+        android:textSize="22sp"
+        android:gravity="center"
+        android:textStyle="bold|italic"
+        android:textColor="#fff"
+        android:shadowColor="#222"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="1"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/oyun1S4AResultsonuc"
+
+        />
+
+    <RelativeLayout
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        >
+
+        <ImageButton
+            android:id="@+id/oyun1S4Aresultyenidendenebtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:textSize="21sp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:src="@drawable/ic_refresh_black_24dp"
+            android:background="@drawable/agbutton1"/>
+        <ImageButton
+            android:id="@+id/oyun1S4Aresulthomebtn"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:background="@drawable/agbutton1"
+            android:textColor="#000"
+            android:textStyle="bold|italic"
+            android:textSize="21sp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_home_black_24dp"
+            />
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>

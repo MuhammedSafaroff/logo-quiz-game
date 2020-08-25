@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gioco Del Logo</string>
+    <string name="dogru_yanlis">Vero Falso</string>
+    <string name="zamana_oyunu">Gioco del tempo</string>
+    <string name="alti">Sei</string>
+    <string name="puan_yazi">Punto: </string>
+    <string name="kaybettin">Hai Perso</string>
+    <string name="sonuc">Risultato: </string>
+    <string name="en_iyi">Record: </string>
+    <string name="yazilim_sorusu">Quiz</string>
+    <string name="coklu_secme_1">Scelta Multipla 1</string>
+    <string name="coklu_secme_2">Scelta Multipla 2</string>
+
+
+    <string name="banner_reklam1">ca-app-pub-3940256099942544/6300978111</string>
+</resources>

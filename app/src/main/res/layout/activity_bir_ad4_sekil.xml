@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BirAd4SekilActivity"
+    android:background="@drawable/bg7"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/oyun1A4Spuan"
+            android:layout_width="140dp"
+            android:layout_height="55dp"
+            android:text="Puntuación:100"
+            android:gravity="center"
+            android:background="@drawable/bg4"
+            android:textSize="18sp"
+            android:textColor="#fff"
+            android:textStyle="bold|italic"
+            android:layout_margin="10dp"
+            android:layout_centerVertical="true"/>
+
+        <LinearLayout
+            android:layout_width="115dp"
+            android:layout_height="55dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_centerVertical="true"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:background="@drawable/agbg1"
+            android:padding="5dp">
+
+            <ImageView
+                android:id="@+id/oyun1A4Scan1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/oyun1A4Scan2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+            <ImageView
+                android:id="@+id/oyun1A4Scan3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_favorite_black_aktiv_24dp"
+                />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:id="@+id/oyun1A4Sisim"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="Azerbaycan"
+        android:textColor="#fff"
+        android:textSize="28sp"
+        android:textStyle="bold|italic"
+        android:shadowRadius="3"
+        android:shadowDy="3"
+        android:shadowDx="3"
+        android:shadowColor="#222"
+        android:layout_weight="1.2"/>
+
+
+    <LinearLayout
+        android:id="@+id/oyun1A4Slinear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <!--        esas linear-->
+
+
+
+
+
+        <!--        esas linear-->
+
+
+    </LinearLayout>
+
+    <com.google.android.gms.ads.AdView
+        xmlns:ads="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="SMART_BANNER"
+        android:layout_gravity="center"
+        ads:adUnitId="@string/banner_reklam1">
+    </com.google.android.gms.ads.AdView>
+
+
+
+</LinearLayout>
+
+    
